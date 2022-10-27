@@ -11,6 +11,7 @@ beforeEach(fn () => Http::fake([
     'http://celi.test/initialize' => Http::response([
         'version' => '12345',
     ]),
+    '*' => Http::response(),
 ]));
 
 it('can re-import data', function (array $params, array $searchables, int $count) {
