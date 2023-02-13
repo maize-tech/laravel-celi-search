@@ -4,7 +4,8 @@
     "keywords": [
         "maize-tech",
         "laravel",
-        "celi-search"
+        "celi",
+        "search"
     ],
     "homepage": "https://github.com/maize-tech/laravel-celi-search",
     "license": "MIT",
